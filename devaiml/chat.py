@@ -4,7 +4,7 @@ import json
 import concurrent.futures
 
 client = Groq(
-    api_key="MY_API_KEY",
+    api_key="Nice_Try",
 )
 
 def get_response(i, prompt):
@@ -36,5 +36,6 @@ with open("prompts.txt", "r") as file:
 
 with open("responses.json", "w") as file:
     json.dump(DATA, file, indent=4) 
+
 
         
